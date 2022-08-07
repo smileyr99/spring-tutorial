@@ -3,6 +3,7 @@ package tutorial.core.member;
 import java.util.HashMap;
 import java.util.Map;
 
+// 메모리 회원 저장소 구현체
 public class MemoryMemberRepository implements MemberRepository {
 
     // 동시성 문제가 있을 수 있음 but 예제 이므로 이렇게 진행
